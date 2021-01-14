@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Matúš Hudák">
+        <title>My 6th website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+    </head>
+
+    <body>
+        <div id="nadpis"><strong>Graf sínus a cosínus</strong></div>
+        <div id="grafSinCos"></div>
+        <div id="kos">
+            <label for="sinus"> Sinus</label>
+            <input type="checkbox" id="sinus" value="sinusValue" onchange="graf()" checked>
+            <label for="cosinus"> Cosinus</label>
+            <input type="checkbox" id="cosinus" value="cosValue" onchange="graf()" checked>
+            
+        </div>
+
+        <button id="start"  onclick="start()"> Štart</button>
+        <button id="end" onclick="end()">Stop grafu</button> 
+        <div id="hodnoty"></div>
+        <script src="script.js"></script> 
+
+        <footer >
+            &copy; Matúš Hudák 2019
+        </footer>
+    </body>
+</html> 

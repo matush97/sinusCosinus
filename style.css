@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+#nadpis{
+    text-align: center;
+    /* border-bottom: 1px solid; */
+    background-color: rgb(12, 24, 29);
+    color: blanchedalmond;
+    font-size: 40px;
+    font-style: italic;
+}
+#kos{
+    text-align: center;
+}
+
+#start{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+#hodnoty{
+    text-align: center;
+    margin-top: 2%;
+}
+#sinus{
+    font-style: italic;
+}
+#cosinus{
+    font-style: italic;
+}
+
+#start{
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 28px;
+    color: blue;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 42.5%;
+}
+
+#start:hover {
+	background-color: blanchedalmond;
+    color: orange;
+    border: 2px solid rgb(13, 102, 60);
+    transition: 0.7s;
+	cursor: pointer;
+}
+
+#end{
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 28px;
+    color: blue;
+    text-align: center;
+}
+
+#end:hover {
+	background-color: blanchedalmond;
+    color: orange;
+    border: 2px solid rgb(13, 102, 60);
+    transition: 0.7s;
+	cursor: pointer;
+}
+footer{
+    display:block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(12, 24, 29);
+    color:blanchedalmond;
+    position: fixed;
+}
